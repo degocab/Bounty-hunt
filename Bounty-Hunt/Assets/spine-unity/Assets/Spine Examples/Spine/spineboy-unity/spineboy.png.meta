@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 49bb65eefe08e424bbf7a38bc98ec638
-timeCreated: 1505356401
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: eye_indifferent
@@ -31,7 +29,8 @@ TextureImporter:
     21300048: rear_thigh
     21300050: rear_upper_arm
     21300052: torso
-  serializedVersion: 4
+  externalObjects: {}
+  serializedVersion: 5
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -39,6 +38,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -54,61 +55,78 @@ TextureImporter:
   textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: -1
     mipBias: -1
-    wrapMode: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 0
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Standalone
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Android
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: WebGL
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -124,7 +142,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 414b35bfd7b90c14b8ffe8d7a84ec8b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: eye_surprised
       rect:
@@ -137,7 +162,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 902f94e64732d57419864d91f2ee8b41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: front_bracer
       rect:
@@ -150,7 +182,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 9fb22a157f2629e498d91399719674af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: front_fist_closed
       rect:
@@ -163,7 +202,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7b7f1751111d769489c6210936b051f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: front_fist_open
       rect:
@@ -176,7 +222,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 831a8a7f21da24345995157389eb67d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: front_foot
       rect:
@@ -189,7 +242,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 24cf381da18bea7428f9e266a23f6762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: front_foot_bend1
       rect:
@@ -202,7 +262,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: b666f5d2f72beb84fa9508a9ec54c3cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: front_foot_bend2
       rect:
@@ -215,7 +282,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 7ba64a70c579e2349b7e92752b1e0b15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: front_shin
       rect:
@@ -228,7 +302,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 55ba730d787ec8149abaad170f3b80eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: front_thigh
       rect:
@@ -241,7 +322,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8a33d0d946affc640b65e9de587173df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: front_upper_arm
       rect:
@@ -254,7 +342,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 1b8c1ca948e86df4c85304d52dbe49cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: goggles
       rect:
@@ -267,7 +362,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 21ba3a328c0d33046aa0b4577da6c93a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: gun
       rect:
@@ -280,7 +382,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 574d8243fb0069e4780325edd1b30eb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: head
       rect:
@@ -293,7 +402,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c3ce055694629ea47be8b87dd147fe9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouth_grind
       rect:
@@ -306,7 +422,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f0a9faee345652847a061f1dc51d69be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouth_oooo
       rect:
@@ -319,7 +442,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 142a55329aec41e4787d160da47be6bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: mouth_smile
       rect:
@@ -332,7 +462,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 0f01b987a808a7a4497efb48ba6a451a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: muzzle
       rect:
@@ -345,7 +482,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: f68b0170c28db8543aec35ceef9c8d29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: neck
       rect:
@@ -358,7 +502,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 8c41b9db38fe67a4185c78b4b5f9afff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: rear_bracer
       rect:
@@ -371,7 +522,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 85d2ee0d02569f443ab1c4166487ca59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: rear_foot
       rect:
@@ -384,7 +542,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 6cdaa0525fe474e449e01aa54aecbd84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: rear_foot_bend1
       rect:
@@ -397,7 +562,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c3e266fb3a6790a428cf9d0e63a97a30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: rear_foot_bend2
       rect:
@@ -410,7 +582,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 5b4d530f785730a40b9b14d65c69eb08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: rear_shin
       rect:
@@ -423,7 +602,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 2f2f8125f8190254c82651b3431a018a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: rear_thigh
       rect:
@@ -436,7 +622,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 302c5801a82221c4a9ce886955356588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: rear_upper_arm
       rect:
@@ -449,7 +642,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e85772b948a97cb4eae7177d69598663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: torso
       rect:
@@ -462,8 +662,22 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 76581359103bc1c409f84f12d0c7821b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

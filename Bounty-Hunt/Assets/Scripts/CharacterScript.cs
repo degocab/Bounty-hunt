@@ -9,15 +9,23 @@ public class CharacterScript : MonoBehaviour {
     public GameObject npc;
     public float test;
     public bool boolValue;
-
+    float width = 1;
+    float height;
 
      bool facingRight;
-    
+    SpriteRenderer sprite;
     //public Animation anim;
     // Use this for initialization
     public Animator animator;
     Animation anim;
 	void Start () {
+        sprite = gameObject.GetComponent<SpriteRenderer>();
+        Debug.Log(sprite.bounds);
+        height = Random.Range(7,10)/10f;
+        Vector3 scale = new Vector3(width, height, 1f);
+        transform.localScale = scale;
+
+
         speed = Random.Range(7,10)/10f;
         npc = GameObject.FindGameObjectWithTag("NPC");
         animator = gameObject.GetComponent<Animator>();

@@ -121,9 +121,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 142526278}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: NPCSpawnPoint
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -141,6 +141,71 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &788463945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 788463947}
+  - component: {fileID: 788463946}
+  m_Layer: 0
+  m_Name: Spot Light (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &788463946
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 788463945}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 8.31
+  m_Range: 48.4
+  m_SpotAngle: 50.1
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &788463947
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 788463945}
+  m_LocalRotation: {x: 0.65076125, y: 0.2766042, z: 0.2766042, w: 0.65076125}
+  m_LocalPosition: {x: -41.754906, y: 14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1.8634789}
+  m_Children: []
+  m_Father: {fileID: 1003516877}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 136.056, y: -90, z: -90}
 --- !u!1 &856093275
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,7 +268,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -240,11 +305,107 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 903528817}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: -3}
   m_LocalScale: {x: 2, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 856093276}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &928312940
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 928312942}
+  - component: {fileID: 928312941}
+  m_Layer: 0
+  m_Name: Spot Light (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &928312941
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 928312940}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 8.31
+  m_Range: 48.4
+  m_SpotAngle: 50.1
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &928312942
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 928312940}
+  m_LocalRotation: {x: 0.67168456, y: -0.22099741, z: -0.22099741, w: 0.67168456}
+  m_LocalPosition: {x: 30.545092, y: 14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1.8634778}
+  m_Children: []
+  m_Father: {fileID: 1003516877}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 53.576004, y: -90.00001, z: -90.00001}
+--- !u!1 &1003516876
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1003516877}
+  m_Layer: 0
+  m_Name: Lights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1003516877
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1003516876}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.954908, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 928312942}
+  - {fileID: 788463947}
+  - {fileID: 1352499536}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1081382761
 GameObject:
@@ -341,7 +502,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1095793048
 Transform:
   m_ObjectHideFlags: 0
@@ -366,6 +527,71 @@ Transform:
   m_PrefabParentObject: {fileID: 4139894633917356, guid: 3fae40606794b3e44bb09f2625f1fa46,
     type: 2}
   m_PrefabInternal: {fileID: 1903219014}
+--- !u!1 &1352499535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1352499536}
+  - component: {fileID: 1352499537}
+  m_Layer: 0
+  m_Name: Spot Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1352499536
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1352499535}
+  m_LocalRotation: {x: 0.65828973, y: -0.25817555, z: -0.25817555, w: 0.65828973}
+  m_LocalPosition: {x: -43, y: 14, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1003516877}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 132.829, y: 89.99999, z: 89.99999}
+--- !u!108 &1352499537
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1352499535}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 8.31
+  m_Range: 48.4
+  m_SpotAngle: 50.1
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &1456922762
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,9 +600,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1456922763}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: NPCSpawnPoint2 (1)
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -436,11 +662,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5256638e2ecdacb4b9ac9b54f0a8b0b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.71
-  npc: {fileID: 0}
-  test: 0
-  boolValue: 0
-  animator: {fileID: 0}
 --- !u!95 &1505935467
 Animator:
   serializedVersion: 3
@@ -535,7 +756,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -572,8 +793,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1522580130}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_LocalScale: {x: 4.275, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2022269924}
   m_RootOrder: 0
@@ -587,9 +808,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1705968748}
   - component: {fileID: 1705968747}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: NPCManager
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -667,11 +888,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5256638e2ecdacb4b9ac9b54f0a8b0b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.93
-  npc: {fileID: 0}
-  test: 0
-  boolValue: 0
-  animator: {fileID: 0}
 --- !u!95 &1719972341
 Animator:
   serializedVersion: 3
@@ -777,11 +993,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5256638e2ecdacb4b9ac9b54f0a8b0b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.79
-  npc: {fileID: 0}
-  test: 0
-  boolValue: 0
-  animator: {fileID: 0}
 --- !u!95 &1758453637
 Animator:
   serializedVersion: 3
@@ -853,9 +1064,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1836442104}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: NPCSpawnPoint2
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -965,11 +1176,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5256638e2ecdacb4b9ac9b54f0a8b0b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
-  npc: {fileID: 0}
-  test: 0
-  boolValue: 0
-  animator: {fileID: 0}
 --- !u!95 &1954078900
 Animator:
   serializedVersion: 3
@@ -1065,7 +1271,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1155,7 +1361,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2022269923}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.34, z: 50}
+  m_LocalPosition: {x: 0, y: 1.34, z: 0}
   m_LocalScale: {x: 2, y: 1, z: 1}
   m_Children:
   - {fileID: 1522580132}
@@ -1194,7 +1400,7 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1231,8 +1437,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2096054105}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0, z: -2}
-  m_LocalScale: {x: 2, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -0, z: -4}
+  m_LocalScale: {x: 8.424999, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 856093276}
   m_RootOrder: 0
@@ -1304,11 +1510,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5256638e2ecdacb4b9ac9b54f0a8b0b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.93
-  npc: {fileID: 0}
-  test: 0
-  boolValue: 0
-  animator: {fileID: 0}
 --- !u!95 &2097731140
 Animator:
   serializedVersion: 3
@@ -1380,9 +1581,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2111002088}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: NPCSpawnPoint (1)
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

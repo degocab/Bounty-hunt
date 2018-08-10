@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 12981
+  controlID: 107
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 492}
   m_MaxSize: {x: 14006, y: 14042}
   vertical: 1
-  controlID: 12982
+  controlID: 12
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 12983
+  controlID: 13
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 271}
   m_MaxSize: {x: 14006, y: 10021}
   vertical: 0
-  controlID: 13009
+  controlID: 60
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -367,14 +367,14 @@ MonoBehaviour:
       width: 1050
       height: 441
     m_Scale: {x: 1.468533, y: 1.4685332}
-    m_Translation: {x: 507.53107, y: 227.59286}
+    m_Translation: {x: 507.53104, y: 227.59286}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -345.60413
+      x: -345.6041
       y: -154.97972
       width: 714.9992
       height: 300.29965
@@ -417,9 +417,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -75.99905, y: 2.2710364, z: 27.082426}
+    m_Target: {x: 22.53181, y: 7.0920835, z: 26.851562}
     speed: 2
-    m_Value: {x: -75.99905, y: 2.2710364, z: 27.082426}
+    m_Value: {x: 22.53181, y: 7.0920835, z: 26.851562}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -451,15 +451,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 32.518784
+    m_Target: 55.523373
     speed: 2
-    m_Value: 32.518784
+    m_Value: 55.523373
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0.08822083, y: -0.60388833, z: 0.06749799, w: 0.78929085}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -618,9 +618,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 22d8f9ff
-    m_LastClickedID: -403422
-    m_ExpandedIDs: 22d8f9ff2c9cfeff5400ffffeafbffff0000000048310000a8310000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: eafbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -681,20 +681,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Assets/Prefabs
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Assets/Prefabs
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\Documents\UnityProjects\Bounty-Hunt\Bounty-Hunt
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 962c0000
-    m_LastClickedID: 11414
-    m_ExpandedIDs: 00000000122b0000682c0000803000008a3000001032000000ca9a3bffffff7f
+    m_SelectedIDs: f62f0000
+    m_LastClickedID: 12278
+    m_ExpandedIDs: 00000000122b0000682c0000803000008a3000002832000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -722,7 +722,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000122b0000682c0000803000008a3000001032000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000122b0000682c0000803000008a30000028320000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

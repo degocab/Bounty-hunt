@@ -25,7 +25,7 @@ public class NPCScript : MonoBehaviour
     void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
-        height = Random.Range(8, 10) / 10f;
+        height = Random.Range(80, 100) / 100f;
         Vector3 scale = new Vector3(width, height, 1f);
         transform.localScale = scale;
 

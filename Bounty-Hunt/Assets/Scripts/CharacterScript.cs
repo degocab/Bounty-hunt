@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterScript : MonoBehaviour {
+public class CharacterScript : MonoBehaviour
+{
 
     //public float random = Random.Range(0.75f, 1);
     public float speed;
@@ -11,22 +12,26 @@ public class CharacterScript : MonoBehaviour {
     public bool boolValue;
     float width = 1;
     float height;
-
-     bool facingRight;
+    BoxCollider2D bx;
+    bool facingRight;
     SpriteRenderer sprite;
     //public Animation anim;
     // Use this for initialization
     public Animator animator;
     Animation anim;
-	void Start () {
+    Rigidbody2D rg;
+    void Start()
+    {
+        bx = GetComponent<BoxCollider2D>();
+        rg = GetComponent<Rigidbody2D>();
         sprite = gameObject.GetComponent<SpriteRenderer>();
         Debug.Log(sprite.bounds);
-        height = Random.Range(7,10)/10f;
+        height = Random.Range(7, 10) / 10f;
         Vector3 scale = new Vector3(width, height, 1f);
         transform.localScale = scale;
 
 
-        speed = Random.Range(7,10)/10f;
+        speed = Random.Range(7, 10) / 10f;
         npc = GameObject.FindGameObjectWithTag("NPC");
         animator = gameObject.GetComponent<Animator>();
         animator.speed = speed;
@@ -40,12 +45,19 @@ public class CharacterScript : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update() {
-
+    void Update()
+    {
 
     }
     private void FixedUpdate()
     {
+        if (transform.position.x > 75 || transform.position.x < -75)
+        {
+
+            Debug.Log(transform.position.x);
+            Destroy(gameObject);
+        }
+
         if (boolValue)
         {
             transform.position += new Vector3((animator.speed * 4) * Time.deltaTime, 0, 0);
@@ -53,8 +65,8 @@ public class CharacterScript : MonoBehaviour {
         else
         {
 
-      
-            transform.position -= new Vector3((animator.speed *4) * Time.deltaTime, 0, 0);
+
+            transform.position -= new Vector3((animator.speed * 4) * Time.deltaTime, 0, 0);
         }
     }
 
@@ -64,6 +76,13 @@ public class CharacterScript : MonoBehaviour {
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+    }
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if(collision.gameObject.layer == 8)
+        {
+            bx.isTrigger = false;
+        }
     }
 }
 

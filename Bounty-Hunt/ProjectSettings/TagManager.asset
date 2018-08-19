@@ -16,7 +16,7 @@ TagManager:
   - 
   - Subway
   - NPC
-  - 
+  - Player
   - 
   - 
   - 
@@ -41,4 +41,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 4215934011
+    locked: 0
+  - name: Characters
+    uniqueID: 980031367
+    locked: 0
+  - name: Player
+    uniqueID: 801938269
+    locked: 0
+  - name: Foreground
+    uniqueID: 2272758381
     locked: 0

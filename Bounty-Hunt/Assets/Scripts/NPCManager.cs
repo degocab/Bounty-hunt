@@ -7,9 +7,8 @@ public class NPCManager : MonoBehaviour {
     public float spawnTime = 10f;
     public Transform[] spawnPoints;
 
-
-	// Use this for initialization
-	void Start () {
+    void Awake()
+    {
         int i = 0;
         int number = 25;
         while (i < number)
@@ -18,6 +17,12 @@ public class NPCManager : MonoBehaviour {
             //Invoke("Spawn",spawnTime);
             i++;
         }
+    }
+
+
+	// Use this for initialization
+	void Start () {
+
 
         //StartCoroutine(MyCounter(1));
    

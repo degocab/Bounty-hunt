@@ -30,7 +30,6 @@ public class NPCScript : MonoBehaviour
 
 
         sprite = GetComponent<SpriteRenderer>();
-        sprite.sortingOrder = sortingOrder3;
         animator = gameObject.GetComponent<Animator>();
         height = Random.Range(80, 100) / 100f;
         Vector3 scale = new Vector3(width, height, 1f);
@@ -47,6 +46,15 @@ public class NPCScript : MonoBehaviour
         {
             Flip();
         }
+        if (!boolValue)
+        {
+            sprite.sortingOrder = 0;
+
+        }
+        else
+        {
+            sprite.sortingOrder = 2;
+        }
     }
     void Start()
     {
@@ -57,9 +65,9 @@ public class NPCScript : MonoBehaviour
     int Number()
     {
         //https://answers.unity.com/questions/452983/how-to-exclude-int-values-from-randomrange.html
-        while ( == NotThisDirection)
+        while (sortingOrder3 != 1)
         {
-            newDir = Random.Range(1, 8);
+            sortingOrder3 = Random.Range(sortingOrder, sortingOrder3);
         }
 
         return sortingOrder3;

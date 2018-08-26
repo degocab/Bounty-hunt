@@ -25,12 +25,16 @@ public class NPCScript : MonoBehaviour
     private int sortingOrder = -1;
     private int sortingOrder2 = 2;
     private int sortingOrder3;
+    private bool sortOrderVal;
     void Awake()
     {
 
 
         sprite = GetComponent<SpriteRenderer>();
-        sprite.sortingOrder = sortingOrder3;
+<<<<<<< HEAD
+        sprite.sortingOrder = Number();
+=======
+>>>>>>> 6a5d33ed09a7295f3baa102c38a3551be5496ef0
         animator = gameObject.GetComponent<Animator>();
         height = Random.Range(80, 100) / 100f;
         Vector3 scale = new Vector3(width, height, 1f);
@@ -47,6 +51,15 @@ public class NPCScript : MonoBehaviour
         {
             Flip();
         }
+        if (!boolValue)
+        {
+            sprite.sortingOrder = 0;
+
+        }
+        else
+        {
+            sprite.sortingOrder = 2;
+        }
     }
     void Start()
     {
@@ -54,12 +67,26 @@ public class NPCScript : MonoBehaviour
 
 
     }
+    
     int Number()
     {
         //https://answers.unity.com/questions/452983/how-to-exclude-int-values-from-randomrange.html
-        while ( == NotThisDirection)
+<<<<<<< HEAD
+
+
+        sortOrderVal = (Random.Range(0, 2) == 0);
+        if (!sortOrderVal)
         {
-            newDir = Random.Range(1, 8);
+            sortingOrder3 = -1;
+        }
+        if (sortOrderVal)
+        {
+            sortingOrder3 = 2;
+=======
+        while (sortingOrder3 != 1)
+        {
+            sortingOrder3 = Random.Range(sortingOrder, sortingOrder3);
+>>>>>>> 6a5d33ed09a7295f3baa102c38a3551be5496ef0
         }
 
         return sortingOrder3;

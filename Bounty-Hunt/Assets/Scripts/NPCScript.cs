@@ -31,13 +31,8 @@ public class NPCScript : MonoBehaviour
 
 
         sprite = GetComponent<SpriteRenderer>();
-<<<<<<< HEAD
-<<<<<<< HEAD
-        sprite.sortingOrder = Number();
-=======
->>>>>>> 6a5d33ed09a7295f3baa102c38a3551be5496ef0
-=======
->>>>>>> 6a5d33ed09a7295f3baa102c38a3551be5496ef0
+
+
         animator = gameObject.GetComponent<Animator>();
         height = Random.Range(80, 100) / 100f;
         Vector3 scale = new Vector3(width, height, 1f);
@@ -70,84 +65,84 @@ public class NPCScript : MonoBehaviour
 
 
     }
-    
-    int Number()
-    {
-        //https://answers.unity.com/questions/452983/how-to-exclude-int-values-from-randomrange.html
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-
-        sortOrderVal = (Random.Range(0, 2) == 0);
-        if (!sortOrderVal)
-        {
-            sortingOrder3 = -1;
-        }
-        if (sortOrderVal)
-        {
-            sortingOrder3 = 2;
-=======
-        while (sortingOrder3 != 1)
-        {
-            sortingOrder3 = Random.Range(sortingOrder, sortingOrder3);
->>>>>>> 6a5d33ed09a7295f3baa102c38a3551be5496ef0
-=======
-        while (sortingOrder3 != 1)
-        {
-            sortingOrder3 = Random.Range(sortingOrder, sortingOrder3);
->>>>>>> 6a5d33ed09a7295f3baa102c38a3551be5496ef0
-        }
-
-        return sortingOrder3;
-    }
-    // Update is called once per frame
-    void Update()
-    {
-       
-
-    }
-    void Move()
-    {
-        if (transform.position.x > 500 || transform.position.x < -75)
-        {
-            Destroy(gameObject);
-        }
-
-        if (boolValue)
-        {
-            transform.position += new Vector3((animator.speed * 4) * Time.deltaTime, 0, 0);
-        }
-        else
-        {
-            transform.position -= new Vector3((animator.speed * 4) * Time.deltaTime, 0, 0);
-        }
-    }
-    void FixedUpdate()
-    {
-        Move();
-    }
-
-    void Flip()
-    {
-
-        //facingRight = !facingRight;
-        //Vector3 theScale = transform.localScale;
-        //theScale.x *= -1;
-        //transform.localScale = theScale;
-        facingRight = !facingRight;
-        Vector3 theScale = sprite.transform.localScale;
-        theScale.x *= -1;
-        transform.localScale = theScale;
-
-    }
-    // void OnCollisionEnter2D(Collision2D collision)
+    //int Number()
     //{
+    //    //https://answers.unity.com/questions/452983/how-to-exclude-int-values-from-randomrange.html
 
-    //    if(collision.gameObject.layer == 9)
+
+    //    sortOrderVal = (Random.Range(0, 2) == 0);
+    //    if (!sortOrderVal)
     //    {
-    //        Debug.Log("test");
-    //        bx.isTrigger = true;
+    //        sortingOrder3 = -1;
+    //    }
+    //    if (sortOrderVal)
+    //    {
+    //        sortingOrder3 = 2;
+
+    //        while (sortingOrder3 != 1)
+    //        {
+    //            sortingOrder3 = Random.Range(sortingOrder, sortingOrder3);
+
+    //            while (sortingOrder3 != 1)
+    //            {
+    //                sortingOrder3 = Random.Range(sortingOrder, sortingOrder3);
+
+    //            }
+
+    //            return sortingOrder3;
+    //        }
     //    }
     //}
+    // Update is called once per frame
+    void Update()
+            {
+
+
+            }
+            void Move()
+            {
+                if (transform.position.x > 500 || transform.position.x < -75)
+                {
+                    Destroy(gameObject);
+                }
+
+                if (boolValue)
+                {
+                    transform.position += new Vector3((animator.speed * 4) * Time.deltaTime, 0, 0);
+                }
+                else
+                {
+                    transform.position -= new Vector3((animator.speed * 4) * Time.deltaTime, 0, 0);
+                }
+            }
+            void FixedUpdate()
+            {
+                Move();
+            }
+
+            void Flip()
+            {
+
+                //facingRight = !facingRight;
+                //Vector3 theScale = transform.localScale;
+                //theScale.x *= -1;
+                //transform.localScale = theScale;
+                facingRight = !facingRight;
+                Vector3 theScale = sprite.transform.localScale;
+                theScale.x *= -1;
+                transform.localScale = theScale;
+
+            }
+            // void OnCollisionEnter2D(Collision2D collision)
+            //{
+
+            //    if(collision.gameObject.layer == 9)
+            //    {
+            //        Debug.Log("test");
+            //        bx.isTrigger = true;
+            //    }
+            //}
+
 }
 

@@ -32,7 +32,10 @@ public class NPCScript : MonoBehaviour
 
         sprite = GetComponent<SpriteRenderer>();
 <<<<<<< HEAD
+<<<<<<< HEAD
         sprite.sortingOrder = Number();
+=======
+>>>>>>> 6a5d33ed09a7295f3baa102c38a3551be5496ef0
 =======
 >>>>>>> 6a5d33ed09a7295f3baa102c38a3551be5496ef0
         animator = gameObject.GetComponent<Animator>();
@@ -72,6 +75,7 @@ public class NPCScript : MonoBehaviour
     {
         //https://answers.unity.com/questions/452983/how-to-exclude-int-values-from-randomrange.html
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
         sortOrderVal = (Random.Range(0, 2) == 0);
@@ -82,6 +86,11 @@ public class NPCScript : MonoBehaviour
         if (sortOrderVal)
         {
             sortingOrder3 = 2;
+=======
+        while (sortingOrder3 != 1)
+        {
+            sortingOrder3 = Random.Range(sortingOrder, sortingOrder3);
+>>>>>>> 6a5d33ed09a7295f3baa102c38a3551be5496ef0
 =======
         while (sortingOrder3 != 1)
         {
